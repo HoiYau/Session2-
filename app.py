@@ -5,6 +5,8 @@ from openai.embeddings_utils import cosine_similarity
 import openai
 import ast
 
+openai.api_key =  st.secrets["mykey"]
+
 # Load the dataset with pre-calculated question embeddings
 df = pd.read_csv("qa_dataset_with_embeddings.csv")
 
