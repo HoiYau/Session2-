@@ -4,6 +4,7 @@ import numpy as np
 from openai.embeddings_utils import cosine_similarity
 import openai
 import ast
+import matplotlib.pyplot as plt
 
 openai.api_key =  st.secrets["mykey"]
 
